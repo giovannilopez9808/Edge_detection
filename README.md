@@ -5,13 +5,13 @@ Herramienta desarrollada para analizar los bordes de una imagen satelital por me
 Los kernels disponibles son los siguientes:
 
 - Sobel 3
-  $$
+  ```math
   \begin{pmatrix}
     1&  2&  1\\
     0&  0&  0\\
     -1& -2& 1\\
   \end{pmatrix}
-  $$
+  ```
 - Scharr 3
 
   $$
