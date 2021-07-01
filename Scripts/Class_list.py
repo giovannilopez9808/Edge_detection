@@ -18,7 +18,7 @@ class edge_detection_algorithm:
         + kernel name -> nombre del kernel que se usara para la deteccion de bordes.
         + path data" -> direccion donde se encuentran las imagenes satelitales.
         """
-        self.images_names = sorted(os.listdir(parameters["path data"]))
+        self.images_names = listdir_sorted(parameters["path data"])
         self.kernel = egde_kernels(parameters["kernel name"])
         self.parameters = parameters
 
