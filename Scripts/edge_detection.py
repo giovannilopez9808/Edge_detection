@@ -1,7 +1,7 @@
 from Class_list import *
 parameters = {
     "path graphics": "../Graphics/",
-    "kernel name": "feldman_5",
+    "kernel name": "sobel_5",
     "path data": "../Data/",
 }
 edge_detection = edge_detection_algorithm(parameters=parameters)

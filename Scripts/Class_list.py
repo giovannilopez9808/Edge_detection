@@ -70,7 +70,7 @@ class edge_detection_algorithm:
 
     def create_animation(self):
         animation = animation_algorithm(path=self.parameters["path graphics"])
-        animation.create()
+        animation.create(delete=False)
 
 
 class egde_kernels:
